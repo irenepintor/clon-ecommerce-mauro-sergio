@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Clon E-commerce Mauro Sergio</title>
 </head>
 <body>
     <header>
-        <nav>
-            <div>
+        <nav class="navbar">
+            <div class="nav-logo">
                 <a href="/index.html"><img src="https://maurosergio.com/wp-content/themes/mino_etapa3/img/logo2021.png" alt="logo"></a>
             </div>
-            <div>
+            <div class="nav-list">
                 <li><a href="">Mujer</a></li>
                 <li><a href="">Hombre</a></li>
                 <li><a href="">Rebajas</a></li>
@@ -26,7 +27,93 @@
     </header>
 
     <main>
-        
+        <!-- Generar desde DOM las tarjetas de producto -->
+        <h1></h1>
+        <div class="product-box">
+            <ul>
+                <li>
+                    <a href=""><img src="https://maurosergio.com/wp-content/uploads/2021/11/013B-4.jpg" alt="sweater ambar" class="product-image"></a>
+                    <h3>Art. 317 - Sweater Ámbar</h3>
+                    <span>
+                        <span>$7.529</span>
+                        <span>+ IVA</span>
+                    </span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href=""><img src="https://maurosergio.com/wp-content/uploads/2022/06/503.jpg" alt="saco romar" class="product-image"></a>
+                    <h3>Art. 320 - Saco Romar</h3>
+                    <span>
+                        <span>$9.889</span>
+                        <span>+ IVA</span>
+                    </span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href=""><img src="https://maurosergio.com/wp-content/uploads/2022/09/020-5.jpg" alt="polera lule" class="product-image"></a>
+                    <h3>Art. 224 - Polera Lule</h3>
+                    <span>
+                        <span>$7.849</span>
+                        <span>+ IVA</span>
+                    </span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href=""><img src="https://maurosergio.com/wp-content/uploads/2022/09/016-5.jpg" alt="ruana cachi" class="product-image"></a>
+                    <h3>Art. 211 - Ruana Cachi</h3>
+                    <span>
+                        <span>$6.669</span>
+                        <span>+ IVA</span>
+                    </span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href=""><img src="https://maurosergio.com/wp-content/uploads/2022/09/020.jpg" alt="poncho ombu" class="product-image"></a>
+                    <h3>Art. 213 - Poncho  Ombú</h3>
+                    <span>
+                        <span>$7.959</span>
+                        <span>+ IVA</span>
+                    </span>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href=""><img src="https://maurosergio.com/wp-content/uploads/2022/09/019-3.jpg" alt="cardigan chalten" class="product-image"></a>
+                    <h3>Art. 239 - Cárdigan Chaltén</h3>
+                    <span>
+                        <span>$6.989</span>
+                        <span>+ IVA</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="form-style" hidden>
+            <form class="form-box" id="simulation-form">
+                <input type="text" placeholder="Nombre de Prenda" id="prenda" required>
+                <input type="number" placeholder="Presupuesto" id="presupuesto">
+                <input type="number" placeholder="Precio" id="precio" required>
+                <input type="number" placeholder="Cantidad" id="cantidad" required>
+                <input type="number" placeholder="Cuotas" id="cuotas" required>
+                <label for="">Recargo por pago en Cuotas</label>
+                <br>
+                    <select name="select" id="recargo-cuota">
+                        <option value="3 cuotas">3 cuotas - 10%</option>
+                        <option value="6 cuotas">6 cuotas - 15%</option>
+                        <option value="12 cuotas">12 cuotas - 20%</option>
+                    </select>
+                <input type="submit"  placeholder="Calcular" id="calcular">
+            </form>
+        </div>
+        <div class="icons" hidden>
+            <i class='bx bxs-t-shirt bx-lg' style='color:#c72727' ></i>
+            <i class='bx bxs-wallet bx-lg' style='color:#c72727'  ></i>
+            <i class='bx bx-credit-card bx-lg' style='color:#c72727' ></i>
+            <i class='bx bx-cart bx-lg' style='color:#c72727' ></i>
+        </div>
     </main>
 
     <footer>
