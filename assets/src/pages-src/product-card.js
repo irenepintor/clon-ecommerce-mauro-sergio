@@ -1,5 +1,4 @@
-{/* <section id="product-box">
-    Generar desde DOM las tarjetas de producto
+{/* Generar desde DOM las tarjetas de producto
     <div>
         <ul>
             <li>
@@ -38,5 +37,4 @@
                 </a>
             </li>
         </ul>
-    </div>
-</section> */}
+    </div>*/}

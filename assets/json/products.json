@@ -1,0 +1,168 @@
+{
+    "Mujer": [
+        {
+            "id": "317",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2021/11/615-7-350x453.jpg",
+            "name": "Ámbar",
+            "price": "7959",
+            "info": "Sweater manga ranglan, con canelones.\nAjustado, se amolda al cuerpo.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "345",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2020/01/215-350x453.jpg",
+            "name": "Eugenia",
+            "price": "8389",
+            "info": "Sweater escote en “v”, con tajos en los laterales. Diferencia de largo entre delantera y espalda.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "355",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2020/12/503-3-350x453.jpg",
+            "name": "Lluvia",
+            "price": "9679",
+            "info": "Sweater cuello redondo, puños altos. Detalle de botones en manga.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "344",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2023/02/708-350x453.jpg",
+            "name": "Amaru",
+            "price": "7099",
+            "info": "Casaca oversize con trenzas y canelones en delantera . Cuello bote.\nOversize, muy holgado.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "373",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2019/07/503-7-350x453.jpg",
+            "name": "Soldi",
+            "price": "7739",
+            "info": "Sweater cuello redondo, tejido con trenzas y canelones.\nAjustado, se amolda al cuerpo.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "343",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2020/08/215-1-350x453.jpg",
+            "name": "Zoe",
+            "price": "8599",
+            "info": "Sweater cuello bote. Detalle de tajos en manga.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "335",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2023/02/503-1-350x453.jpg",
+            "name": "Newén",
+            "price": "7209",
+            "info": "Sweater escote en “v” perle con trabajo de punto en delantera.\nOversize, muy holgado.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "332",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2022/10/013-1-350x453.jpg",
+            "name": "Andino",
+            "price": "8389",
+            "info": "Sweater con cuello chomba lisa.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "327",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2020/12/503-2-350x453.jpg",
+            "name": "Artemisa",
+            "price": "8599",
+            "info": "Sweater largo, cuello redondo con tajos laterales y mangas ajustadas.\nOversize, muy holgado.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "336",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2022/10/619-1-350x453.jpg",
+            "name": "Lerma",
+            "price": "7529",
+            "info": "Escote en “V” oversize liso.\nAncho, holgado\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        }
+    ],
+    "Varón":[
+        {
+            "id": "375",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2021/11/13-5-350x453.jpg",
+            "name": "Eric",
+            "price": "9679",
+            "info": "Sweater cuello redondo, con canelones en laterles y mangas.\nAjustado, se amolda al cuerpo.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "326",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2018/07/605a-350x453.jpg",
+            "name": "Marco",
+            "price": "8389",
+            "info": "Sweater cuello redondo. Detalle de punto en el cuello.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "399",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2020/01/13b-6-350x453.jpg",
+            "name": "Emilio",
+            "price": "9889",
+            "info": "Sweater escote en “v” clásico.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "307",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2019/01/020-4-350x453.jpg",
+            "name": "Forte",
+            "price": "8599",
+            "info": "Sweater cuello redondo con bordado.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "261",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2018/08/014-2-350x453.jpg",
+            "name": "Itaete",
+            "price": "8169",
+            "info": "Sweater con cierre en cuello, jacquard y trenzas.\nEstándar, holgado medio.\nAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno.",
+            "color": "",
+            "size": ""
+        },{
+            "id": "420",
+            "type": "sweaters",
+            "season": "otoño-invierno",
+            "img": "https://maurosergio.com/wp-content/uploads/2020/01/308-20-350x453.jpg",
+            "name": "Pedro",
+            "price": "6449",
+            "info": "Sweater escote en “V”, básico.\nEstándar, holgado medio.\nTextura de lana, con alta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno.",
+            "color": "",
+            "size": ""
+        }
+    ]
+}
