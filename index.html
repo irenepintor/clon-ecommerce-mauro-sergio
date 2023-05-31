@@ -12,37 +12,42 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="nav-logo">
-                <a href="/index.html"><img src="https://maurosergio.com/wp-content/themes/mino_etapa3/img/logo2021.png" alt="logo" class="logo"></a>
+            <div class="col-md-3 visible-md-block visible-lg-block nav-logo">
+                <a href="/index.html" class="navbar-ancor"><img src="https://maurosergio.com/wp-content/themes/mino_etapa3/img/logo2021.png" alt="logo mauro sergio" class="logo"></a>
+            </div>
+            <div class="new-collection">
+                <a href="">
+                    <img src="https://www.maurosergio.com/imagenes/editoriales/2022/mimesis/logo_nueva_colecccion4.jpg" alt="nueva colección">
+                </a>
             </div>
             <div class="nav-list dropdown">
                 <!-- <button class="dropbtn">Dropdown Menu Mobile</button> -->
                 <li>
-                    <a href="">Mujer</a>
+                    <a href="" class="btn dropdown-toggle">Mujer</a>
                     <div>
-                        <div>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <div class="autumn-winter">
                                 <ul>
-                                    <li>Otoño - Invierno</li>
-                                    <li>Sweaters</li>
-                                    <li>Cárdigans</li>
-                                    <li>Sacos</li>
-                                    <li>Poleras</li>
-                                    <li>Camperas</li>
-                                    <li>Chalecos</li>
-                                    <li>Ruanas</li>
-                                    <li>Pashminas</li>
-                                    <li>Ponchos</li>
+                                    <li class="dropdown-item">Otoño - Invierno</li>
+                                    <li class="dropdown-item">Sweaters</li>
+                                    <li class="dropdown-item">Cárdigans</li>
+                                    <li class="dropdown-item">Sacos</li>
+                                    <li class="dropdown-item">Poleras</li>
+                                    <li class="dropdown-item">Camperas</li>
+                                    <li class="dropdown-item">Chalecos</li>
+                                    <li class="dropdown-item">Ruanas</li>
+                                    <li class="dropdown-item">Pashminas</li>
+                                    <li class="dropdown-item">Ponchos</li>
                                 </ul>
                             </div>
                             <div class="spring-summer">
                                 <ul>
-                                    <li>Primavera - Verano</li>
-                                    <li>Sweaters</li>
-                                    <li>Cárdigans</li>
-                                    <li>Sacos</li>
-                                    <li>Remeras</li>
-                                    <li>Musculosas</li>
+                                    <li class="dropdown-item">Primavera - Verano</li>
+                                    <li class="dropdown-item">Sweaters</li>
+                                    <li class="dropdown-item">Cárdigans</li>
+                                    <li class="dropdown-item">Sacos</li>
+                                    <li class="dropdown-item">Remeras</li>
+                                    <li class="dropdown-item">Musculosas</li>
                                 </ul>
                             </div>
                         </div>
@@ -52,26 +57,26 @@
                     </div>
                 </li>
                 <li>
-                    <a href="">Hombre</a>
+                    <a href="" class="btn dropdown-toggle">Hombre</a>
                     <div>
-                        <div>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <div class="autumn-winter">
                                 <ul>
-                                    <li>Otoño - Invierno</li>
-                                    <li>Sweaters</li>
-                                    <li>Cárdigans</li>
-                                    <li>Poleras</li>
-                                    <li>Camperas</li>
-                                    <li>Chalecos</li>
-                                    <li>Ruanas</li>
+                                    <li class="dropdown-item">Otoño - Invierno</li>
+                                    <li class="dropdown-item">Sweaters</li>
+                                    <li class="dropdown-item">Cárdigans</li>
+                                    <li class="dropdown-item">Poleras</li>
+                                    <li class="dropdown-item">Camperas</li>
+                                    <li class="dropdown-item">Chalecos</li>
+                                    <li class="dropdown-item">Ruanas</li>
                                 </ul>
                             </div>
                             <div class="spring-summer">
                                 <ul>
-                                    <li>Primavera - Verano</li>
-                                    <li>Chomba</li>
-                                    <li>Remeras</li>
-                                    <li>Sweaters</li>
+                                    <li class="dropdown-item">Primavera - Verano</li>
+                                    <li class="dropdown-item">Chomba</li>
+                                    <li class="dropdown-item">Remeras</li>
+                                    <li class="dropdown-item">Sweaters</li>
                                 </ul>
                             </div>
                         </div>
@@ -81,91 +86,95 @@
                     </div>
                 </li>
                 <li>
-                    <a href="">Rebajas</a>
-                    <ul>
-                        <li>
-                            <a href="">Mujer</a>
-                        </li>
-                        <li>
-                            <a href="">Hombre</a>
-                        </li>
-                        <!-- <li>
-                            <a href=" ">
-                                <b>HOT SALE</b>
-                            </a>
-                        </li> -->
-                    </ul>
+                    <a href="" class="btn dropdown-toggle">Rebajas</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <ul>
+                            <li>
+                                <a href="">Mujer</a>
+                            </li>
+                            <li>
+                                <a href="">Hombre</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="btn dropdown-toggle">
                         <b>NUEVO</b>
                     </a>
-                    <ul>
-                        <li>
-                            <a href="">Mujer</a>
-                        </li>
-                        <li>
-                            <a href="">Hombre</a>
-                        </li>
-                    </ul>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <ul>
+                            <li>
+                                <a href="">Mujer</a>
+                            </li>
+                            <li>
+                                <a href="">Hombre</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <a href="">Accesorios</a>
-                    <ul>
-                        <li>
-                            <a href="">Guantes</a>
-                        </li>
-                        <li>
-                            <a href="">Bufandas</a>
-                        </li>
-                        <li>
-                            <a href="">Cuellos</a>
-                        </li>
-                        <li>
-                            <a href="">Gorros</a>
-                        </li>
-                        <li>
-                            <a href="">Pasminas</a>
-                        </li>
-                        <li>
-                            <a href="">PACKAGING</a>
-                        </li>
-                    </ul>
+                    <a href="" class="btn dropdown-toggle">Accesorios</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <ul>
+                            <li>
+                                <a href="">Guantes</a>
+                            </li>
+                            <li>
+                                <a href="">Bufandas</a>
+                            </li>
+                            <li>
+                                <a href="">Cuellos</a>
+                            </li>
+                            <li>
+                                <a href="">Gorros</a>
+                            </li>
+                            <li>
+                                <a href="">Pasminas</a>
+                            </li>
+                            <li>
+                                <a href="">PACKAGING</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </li>
                 <li>
                     <a href="">Catálogo</a>
                 </li>
                 <li>
                     <a href="">Ayuda</a>
-                    <ul>
-                        <li>
-                            <a href="">¿Cómo registrarme en la página?</a>
-                        </li>
-                        <li>
-                            <a href="">¿Cómo comprar?</a>
-                        </li>
-                        <li>
-                            <a href="">Preguntas Frecuentes</a>
-                        </li>
-                        <li>
-                            <a href="">Cambios y Devoluciones</a>
-                        </li>
-                        <li>
-                            <a href="">AHORA 3 Y 6</a>
-                        </li>
-                        <li>
-                            <a href="">La Empresa</a>
-                        </li>
-                        <li>
-                            <a href="">Términos y Condiciones</a>
-                        </li>
-                        <li>
-                            <a href="">Contáctenos</a>
-                        </li>
-                        <li>
-                            <a href="">VENTA MAYORISTA</a>
-                        </li>
-                    </ul>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <ul>
+                            <li>
+                                <a href="">¿Cómo registrarme en la página?</a>
+                            </li>
+                            <li>
+                                <a href="">¿Cómo comprar?</a>
+                            </li>
+                            <li>
+                                <a href="">Preguntas Frecuentes</a>
+                            </li>
+                            <li>
+                                <a href="">Cambios y Devoluciones</a>
+                            </li>
+                            <li>
+                                <a href="">AHORA 3 Y 6</a>
+                            </li>
+                            <li>
+                                <a href="">La Empresa</a>
+                            </li>
+                            <li>
+                                <a href="">Términos y Condiciones</a>
+                            </li>
+                            <li>
+                                <a href="">Contáctenos</a>
+                            </li>
+                            <li>
+                                <a href="">VENTA MAYORISTA</a>
+                            </li>
+                        </ul>
+                    </div>                    
                 </li>
                 <div class="dropdown-content">
                     <!-- Dropdown Menu List -->
@@ -215,53 +224,230 @@
         </section>
 
         <section class="shortcut-container">
-            <div class="">
-                <div>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-MUJER-38.jpg" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-CATALOGO-38.jpg" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-HOMBRE-38.jpg" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-REBAJAS-37.jpg" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MAYORISTA-ACCESO-pagina-minorista-3.jpg" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-NUEVO-31.jpg" alt="">
-                    </a>
+            <div class="box-container container-fluid d-md-block d-lg-block hidden">
+                <div class="row p-0 m-0">
+                    <div class="col-md-4 col1">
+                        <a href="" class="grayscale first">
+                            <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-MUJER-38.jpg" alt="">
+                            <div class="box-title-home">MUJER</div>
+                        </a>
+                        <a href="" class="grayscale">
+                            <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-REBAJAS-37.jpg" alt="">
+                            <div class="box-title-home">REBAJAS</div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col2">
+                        <a href="" class="grayscale first">
+                            <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-CATALOGO-38.jpg" alt="">
+                            <div class="box-title-home catalogue-box">CATÁLOGO</div>
+                        </a>
+                        <a href="" class="grayscale">
+                            <img src="https://maurosergio.com/wp-content/uploads/2022/04/MAYORISTA-ACCESO-pagina-minorista-3.jpg" alt="">
+                            <div class="box-title-home catalogue-box">MAYORISTA</div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col3">
+                        <a href="" class="grayscale first">
+                            <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-HOMBRE-38.jpg" alt="">
+                            <div class="box-title-home">HOMBRE</div>
+                        </a>
+                        <a href="" class="grayscale">
+                            <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-NUEVO-31.jpg" alt="">
+                            <div class="box-title-home">NUEVO</div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Featured -->
         <section>
             <div>
-                <h3></h3>
+                <span>
+                    <h3>DESTACADOS</h3>
+                </span>
             </div>
 
             <div>
 
+            </div>
+        </section>
+
+        <!-- Payment Methods and Promotions -->
+        <section>
+            <div class="container">
+                <div class="panel panel-default m-0 p-0 payment-methods hidden-xs hidden-sm">
+                    <h2>
+                        <span>
+                            Formas de Pago y Promociones
+                        </span>
+                    </h2>
+                    <div class="payment-body">
+                        <div class="col-md-12">
+                            <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/minorista_tarjetas_horizontal_2017_full_diseno_nuevo.jpg" alt="">
+                        </div>
+                        <div class="col-md-12">
+                            <a href="https://www.mercadopago.com.ar/cuotas">
+                                <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/minorista_promos_mercadopago_diseno_nuevo.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="jumbotron info-container">
+                        <div class="row">
+                            <div class="col-md-6 general-info">
+                                <h3>INFORMACION IMPORTANTE</h3>
+                                <div class="price">
+                                    <p>
+                                        <i class="bi bi-chevron-double-right"></i>
+                                        Precios directos de fábrica
+                                    </p>
+                                </div>
+                                <div class="price">
+                                    <p>
+                                        <i class="bi bi-chevron-double-right"></i>
+                                        Envíos a todo el país
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 instruction-help">
+                                <h3>AYUDA E INSTRUCTIVOS</h3>
+                                <div class="price" hidden>
+                                    <p>
+                                        <i class="bi bi-chevron-double-right"></i>
+                                        <a href="">¿Cómo reportar un pago?</a>
+                                    </p>
+                                </div>
+                                <div class="price">
+                                    <p>
+                                        <i class="bi bi-chevron-double-right"></i>
+                                        <a href="">¿Cómo hago mi pedido?</a>
+                                    </p>
+                                </div>
+                                <div class="price">
+                                    <p>
+                                        <i class="bi bi-chevron-double-right"></i>
+                                        <a href="">¿Cómo pagar con MercadoPago?</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <!-- Contact Info -->
+                <div class="facebook-page">
+                    <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/maurosergio_consultas_facebook_2018.png" alt="">
+                </div>
+
+                <div class="jumbotron contact-info-container">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="center-title">Mauro Sergio Tienda Minorista</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <br>
+                            <div class="col-md-6 contact-info">
+                                <p>
+                                    <i class="bi bi-envelope"></i>
+                                    Consultas: 
+                                    <a href="">infoshop@maurosergio.com</a>
+                                </p>
+                                <p>
+                                    <i class="bi bi-share"></i>
+                                    Puede contactarnos utilizando nuestro 
+                                    <a href="">formulario de contacto</a>
+                                    .
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="col-md-6 schedule">
+                                <p>– Horario de atención: 07.00 a 16.00 horas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section>
+            <div class="container newsletter-container">
+                <form id="newsletter-form" method="post">
+                    <h3>¡Enterate de las ultimas rebajas!</h3>
+                    <h4>Suscribite a nuestro newsletter y recibí en tu correo las mejores ofertas.</h4>
+                    <div class="form-group">
+                        <input type="email" name="email-newsletter" class="email-form" id="email-newsletter" placeholder="Dirección de Correo">
+                    </div>
+                    <button type="button" class="btn btn-default" id="btn-newsletter">¡Suscribite!</button>
+                    <br>
+                    <h4 class="subscription-success" hidden>Suscripción realizada. ¡Bienvenido!</h4>
+                </form>
+            </div>
+        </section>
+
+        <!-- Keep buying -->
+        <section>
+            <div class="container">
+                <div class="buying-box">
+                    <h3>
+                        <span>
+                            SEGUÍ COMPRANDO
+                        </span>
+                    </h3>
+                </div>
+                
+                <div class="keep-buying-box">
+                    <a href="">
+                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-MUJER-38.jpg" alt="">
+                        <div class="box-title-home">MUJER</div>
+                    </a>
+                    <a href="">
+                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-HOMBRE-38.jpg" alt="">
+                        <div class="box-title-home">HOMBRE</div>
+                    </a>
+                    <a href="">
+                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-REBAJAS-37.jpg" alt="">
+                        <div class="box-title-home">REBAJAS</div>
+                    </a>
+                    <a href="">
+                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-CATALOGO-38.jpg" alt="">
+                        <div class="box-title-home">CATÁLOGO</div>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
-
+    
     <footer>
+        <section>
+            <div>
+                <img src="https://maurosergioshop.com.ar/wp-content/themes/mino_etapa3/img/minorista/logo2019_minorista_fondo_negro_v2.png" alt="">
+            </div>
 
+            <div>
+                <div>
+					(C) 2015 Textilana SA
+                    <br>
+					Fabrica: Ruta 88 y Calle 45 / Hilandería: Ruta 88 y Calle 47 / Administración: Ruta 88 y Calle 45
+                    <br>
+                    (7600) Mar del Plata - Buenos Aires / Teléfono - Fax: (0054) (223) 4650318 (Líneas rotativas)
+                    <div>
+                        Política de privacidad: Los derechos de autor y otros derechos sobre los materiales de este sitio web son de propiedad de TEXTILANA S.A., sin la expresa autorización por escrito, los mismos no podrán ser usados en publicaciones o para fines comerciales. 
+                        <a href=""></a>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="https://servicioscf.afip.gob.ar/publico/denuncias/denunciaCD.aspx">
+                        <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/data_fiscal2018.jpg" alt="">
+                    </a>
+                    
+                    <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/datos_personales2018.jpg" alt="">
+                </div>
+            </div>
+        </section>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
