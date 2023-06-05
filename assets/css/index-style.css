@@ -164,8 +164,37 @@ a{
 }
 
 /* Featured */
+.panel{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
 
+.home-list{
+    margin-top: 2rem;
+}
 
+.panel-heading{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #070205;
+    text-shadow: 1px 1px #fff;
+}
+
+.panel-title h3 a{
+    color: inherit;
+}
 
 /* Payment Methods and Promotions */
 .panel{

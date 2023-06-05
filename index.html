@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/index-style.css">
     <title>Clon E-commerce Mauro Sergio</title>
@@ -23,12 +22,14 @@
             <div class="nav-list dropdown">
                 <!-- <button class="dropbtn">Dropdown Menu Mobile</button> -->
                 <li>
-                    <a href="" class="btn dropdown-toggle">Mujer</a>
-                    <div>
+                    <a href="" class="btn dropdown-toggle" aria-haspopup="true" aria-expanded="false">Mujer</a>
+                    <div class="multi-column">
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <div class="autumn-winter">
+                            <div class="col-md-6 menu-col-right autumn-winter">
                                 <ul>
-                                    <li class="dropdown-item">Otoño - Invierno</li>
+                                    <li class="dropdown-item">
+                                        <a href="">Otoño - Invierno</a>
+                                    </li>
                                     <li class="dropdown-item">Sweaters</li>
                                     <li class="dropdown-item">Cárdigans</li>
                                     <li class="dropdown-item">Sacos</li>
@@ -42,7 +43,9 @@
                             </div>
                             <div class="spring-summer">
                                 <ul>
-                                    <li class="dropdown-item">Primavera - Verano</li>
+                                    <li class="dropdown-item">
+                                        <a href="">Primavera - Verano</a>
+                                    </li>
                                     <li class="dropdown-item">Sweaters</li>
                                     <li class="dropdown-item">Cárdigans</li>
                                     <li class="dropdown-item">Sacos</li>
@@ -261,15 +264,22 @@
         </section>
 
         <!-- Featured -->
-        <section>
-            <div>
-                <span>
-                    <h3>DESTACADOS</h3>
-                </span>
-            </div>
+        <section class="featured-products container-fluid">
+            <div class="panel home-list">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a href="">DESTACADOS</a>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="col-6">
+                        <div class="col-3">
+                            <ul class="products">
 
-            <div>
-
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
