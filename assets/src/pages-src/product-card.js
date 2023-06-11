@@ -1,37 +1,47 @@
+let womenProductBox = document.getElementById('women-product-box')
+let menProductBox = document.getElementById('men-product-box')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/* Generar desde DOM las tarjetas de producto
     <div>
         <ul>
             <li>
-                <a href="">
-                    <img src="" alt="">
-                    <h3>Articulo Nro. # - Nombre de Producto</h3>
+                <a>
+                    <img>
                 </a>
                 <div class="color-selector">
+                    //Cantidad de divs por color disponible de producto
                     <div class="pellet-container">
-                        <a href=""></a>
+                        <a></a>
                     </div>
-                    <div class="pellet-container">
-                        <a href=""></a>
+                    <div>
+                        //Imagen de "cargando" cuando cambio de color de prenda
+                        <imgZ
                     </div>
-                    <div class="pellet-container">
-                        <a href=""></a>
-                    </div>
-                    <div class="pellet-container">
-                        <a href=""></a>
-                    </div>
-                    O más pellets según la prenda.
                 </div>
-                <a href="" class="">
-                    <h3>Articulo Nro. # - Nombre de Producto</h3>
-                    <span class="price">
+                <a>
+                    <h3>Art. # - Nombre de Producto</h3>
+                    <span>
                         <span>Precio</span>
                         <span>+ IVA</span>
                     </span>
-                    <div class="">
-                        Cuotas
-                        <span>Precio de la Cuota</span>
-                        ,
-                        <span>Centavos - De ser necesario</span>
+                    <div class="cuotas">
+                        6x
+                        <span>Precio de cuota</span>
+                        <span>Centavos</span>
                         sin Interés
                     </div>
                 </a>
