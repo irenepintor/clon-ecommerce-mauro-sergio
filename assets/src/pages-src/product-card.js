@@ -15,7 +15,8 @@ let menProductBox = document.getElementById('men-product-box')
 
 
 
-{/* Generar desde DOM las tarjetas de producto
+
+{/* 
     <div>
         <ul>
             <li>
