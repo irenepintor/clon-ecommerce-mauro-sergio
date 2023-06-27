@@ -1,0 +1,24 @@
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 3rem 6rem;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    height: 38rem;
+    /* margin: 0.5rem 1rem; */
+}
+.product-card{
+    padding: 1rem 1rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.cuotas{
+    color: #008000;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'ZCOOL XiaoWei','Open Sans', sans-serif;
+    min-height: 100vh;
+}
+.quick-access-container{
+    margin: 1.5rem 0;
+}
+.box-container img {
+    max-width: 100%;
+    width: 100%
+}
+.box-container .col1 a.first,.box-container .col2 a.first,.box-container .col3 a.first {
+    margin-bottom: 20px
+}
+.box-containers .row {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 18px
+}
+.box-container .col1 {
+    padding: 0;
+    padding-right: 10px
+}
+.box-container .col2 {
+    padding: 0 10px
+}
+.box-container .col3 {
+    padding: 0;
+    padding-left: 10px
+}
+.container-fluid{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.grayscale {
+    filter: gray;
+        -webkit-filter: grayscale(100%);
+        -moz-transition: all .6s ease;
+        -o-transition: all .6s ease;
+        -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    display: block;
+    overflow: hidden
+}
+.grayscale>img {
+        -moz-transition: all .6s ease;
+        -o-transition: all .6s ease;
+        -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    margin: 0 auto;
+    backface-visibility: hidden;
+        -webkit-backface-visibility: hidden
+}
+.grayscale:hover {
+    filter: none;
+        -webkit-filter: grayscale(0)
+}
+.grayscale:hover>img {
+    transform: scale(1.1)
+}
+.box-title-home{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 50px;
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+    padding: 0 20px;
+}
+.catalogue-box{
+    width: 100%;
+    left: 0;
+    padding: 10px 0;
+    text-align: center;
+}

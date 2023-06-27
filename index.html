@@ -1,115 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/index-style.css">
-    <title>Clon E-commerce Mauro Sergio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/main.css" />
+    <title>Document</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar data-bs-theme=dark navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm p-3 mb-3 bg-body-tertiary rounded">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html"><img src="https://maurosergio.com/wp-content/themes/mino_etapa3/img/logo2021.png" alt="Tienda Mauro Sergio Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="/inicio">
+                    <img src="https://maurosergio.com/wp-content/themes/mino_etapa3/img/logo2021.png" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="/index.html">Inicio</a>
-                        </li>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mujer</a>
-                            <ul class="dropdown-menu container">
-                                <li><a href="">Otoño-Invierno</a></li>
-                                <li><a class="dropdown-item" href="#">Sweaters</a></li>
-                                <li><a class="dropdown-item" href="#">Cárdigans</a></li>
-                                <li><a class="dropdown-item" href="#">Sacos</a></li>
-                                <li><a class="dropdown-item" href="#">Poleras</a></li>
-                                <li><a class="dropdown-item" href="#">Camperas</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                            <a class="nav-link dropdown-toggle" href="/mujer" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Mujer</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/sweaters">Sweaters</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/cardigans">Cardigans</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/sacos">Sacos</a></li>
+                                <li><a class="dropdown-item" href="/poleras">Poleras</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="/camperas">Camperas</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="/static/pages/mujer.html">Ver Todo Mujer</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hombre</a>
-                            <ul class="dropdown-menu container">
-                                <li><a href="">Otoño-Invierno</a></li>
-                                <li><a class="dropdown-item" href="#">Sweaters</a></li>
-                                <li><a class="dropdown-item" href="#">Cárdigans</a></li>
-                                <li><a class="dropdown-item" href="#">Poleras</a></li>
-                                <li><a class="dropdown-item" href="#">Camperas</a></li>
-                                <li><a class="dropdown-item" href="#">Chalecos</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                            <a class="nav-link dropdown-toggle" href="/hombre" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Hombre</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/sweaters">Sweaters</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/cardigans">Cardigans</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/poleras">Poleras</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="/camperas">Camperas</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/chaleco">Chaleco</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
                                 <li><a class="dropdown-item" href="/static/pages/hombre.html">Ver Todo Hombre</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-uppercase text-danger">Rebajas</a>
+                            <a class="nav-link disabled text-danger">Rebajas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-uppercase font-weight-bold">Nuevo</a>
+                            <a class="nav-link disabled">Nuevo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-uppercase">Accesorios</a>
+                            <a class="nav-link disabled">Accesorios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-uppercase">Catálogo</a>
+                            <a class="nav-link disabled">Catálogo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-uppercase">Venta Mayorista</a>
+                            <a class="nav-link disabled">Venta Mayorista</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ayuda</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Sweaters</a></li>
-                                <li><a class="dropdown-item" href="#">Cárdigans</a></li>
-                                <li><a class="dropdown-item" href="#">Poleras</a></li>
-                                <li><a class="dropdown-item" href="#">Camperas</a></li>
-                                <li><a class="dropdown-item" href="#">Chalecos</a></li>
-                                <li><a class="dropdown-item" href="#">Sweaters</a></li>
-                                <li><a class="dropdown-item" href="#">Cárdigans</a></li>
-                                <li><a class="dropdown-item" href="#">Poleras</a></li>
-                                <li><a class="dropdown-item" href="#">Camperas</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Ayuda</a>
                         </li>
                     </ul>
-                </div>
-                <div class="user-options">
-                    <ul class="nav navbar-nav navbar-right"> 
-                        <li class="pr-3">
-                            <a href=""><i class="bi bi-search"></i> Buscar</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <i class="bi bi-person-fill"><a class="btn btn-light fs-6" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Mi Cuenta</a></i>
                         </li>
-                        <li class="dropdown pr-3">
-                            <a href="" class="dropdown-toggle"><i class="bi bi-person-fill"></i> Mi Cuenta</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="">Pedidos</a>
-                                </li>
-                                <li>
-                                    <a href="">Mis Datos</a>
-                                </li>
-                                <li>
-                                    <a href="">Mi Dirección</a>
-                                </li>
-                                <li>
-                                    <a href="">Cerrar Sesión</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="pr-3">
-                            <a href=""><i class="bi bi-cart-fill"></i> Mi Carrito</a>
+                        <li class="nav-item">
+                            <i class="bi bi-cart"><a class="btn btn-light fs-6" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Mi Carrito</a></i>
                         </li>
                     </ul>
-                    <form class="navbar-form navbar-right" action="" method="get" hidden>
-                        <div class="form-group">
-                            <input type="search" name="" id="">
-                        </div>
-                        <button class="btn btn-default" type="submit">Buscar</button>
-                        <input type="hidden" name="">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -117,271 +102,114 @@
     </header>
 
     <main>
-        <section class="banners">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <section class="carousel-banner pb-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/static/image/carousel-banners/01-fathers-day.jpg" class="d-block w-100" alt="Ragalale a Papá">
+                        <img src="/static/image/carousel-banners/01-fathers-day.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="/static/image/carousel-banners/02-new-collection.jpg" class="d-block w-100" alt="Nueva Colección Otoño-Invierno 2023">
+                        <img src="/static/image/carousel-banners/02-new-collection.jpg" class="d-block w-100"
+                            alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="/static/image/carousel-banners/03-new-arrivals.jpg" class="d-block w-100" alt="Nuevos Ingresos">
+                        <img src="/static/image/carousel-banners/03-new-arrivals.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="/static/image/carousel-banners/04-sale.jpg" class="d-block w-100" alt="Rebajas">
+                        <img src="/static/image/carousel-banners/04-sale.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="/static/image/carousel-banners/05-free-shipping.jpg" class="d-block w-100" alt="Envió Gratis">
+                        <img src="/static/image/carousel-banners/05-free-shipping.jpg" class="d-block w-100"
+                            alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="/static/image/carousel-banners/06-shop.jpg" class="d-block w-100" alt="Local Mar del Plata">
+                        <img src="/static/image/carousel-banners/06-shop.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
-
-        <section class="shortcut-container">
+        <section class="quick-access-container">
             <div class="box-container container-fluid d-md-block d-lg-block hidden">
                 <div class="row p-0 m-0">
-                    <div class="col-md-4 col1">
-                        <a href="/static/pages/mujer.html" class="grayscale first">
-                            <img src="/static/image/quick-access-img/MINORISTA-MUJER-38.jpg" alt="">
-                            <div class="box-title-home">MUJER</div>
-                        </a>
-                        <a href="" class="grayscale">
-                            <img src="/static/image/quick-access-img/MINORISTA-REBAJAS-37.jpg" alt="">
-                            <div class="box-title-home">REBAJAS</div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col2">
-                        <a href="" class="grayscale first">
-                            <img src="/static/image/quick-access-img/MINORISTA-CATALOGO-38.jpg" alt="">
-                            <div class="box-title-home catalogue-box">CATÁLOGO</div>
-                        </a>
-                        <a href="" class="grayscale">
-                            <img src="/static/image/quick-access-img/MAYORISTA-ACCESO-pagina-minorista-3.jpg" alt="">
-                            <div class="box-title-home catalogue-box">MAYORISTA</div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col3">
-                        <a href="/static/pages/hombre.html" class="grayscale first">
-                            <img src="/static/image/quick-access-img/MINORISTA-HOMBRE-38.jpg" alt="">
-                            <div class="box-title-home">HOMBRE</div>
-                        </a>
-                        <a href="" class="grayscale">
-                            <img src="/static/image/quick-access-img/MINORISTA-NUEVO-31.jpg" alt="">
-                            <div class="box-title-home">NUEVO</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured -->
-        <section class="featured-products container-fluid">
-            <div class="panel home-list">
-                <div class="panel-heading">
-                    <h3 class="panel-title">
-                        <a class="nav-link disabled" href="">DESTACADOS</a>
-                    </h3>
-                </div>
-                <div class="panel-body">
-                    <div class="col-6">
-                        <div class="col-3">
-                            <ul class="products">
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Payment Methods and Promotions -->
-        <section>
-            <div class="container">
-                <div class="panel panel-default m-0 p-0 payment-methods hidden-xs hidden-sm">
-                    <h2>
-                        <span>
-                            Formas de Pago y Promociones
-                        </span>
-                    </h2>
-                    <div class="panel-body">
-                        <div class="col-md-12">
-                            <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/minorista_tarjetas_horizontal_2017_full_diseno_nuevo.jpg" alt="">
-                        </div>
-                        <div class="col-md-12">
-                            <a href="https://www.mercadopago.com.ar/cuotas">
-                                <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/minorista_promos_mercadopago_diseno_nuevo.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="jumbotron info-container">
-                        <div class="row">
-                            <div class="col-md-6 general-info">
-                                <h3>INFORMACION IMPORTANTE</h3>
-                                <div class="price">
-                                    <p>
-                                        <i class="bi bi-chevron-double-right"></i>
-                                        Precios directos de fábrica
-                                    </p>
-                                </div>
-                                <div class="price">
-                                    <p>
-                                        <i class="bi bi-chevron-double-right"></i>
-                                        Envíos a todo el país
-                                    </p>
-                                </div>
+                    <div class="access-card col-md-4 col1">
+                        <a href="/categoria/categorias/mujer/" class="grayscale">
+                            <img src="/static/image/quick-access-img/minorista-mujer.jpg" class="pb-2" alt="...">
+                            <div class="box-title-home">
+                                <h5 class="card-title fs-1 text-start">MUJER</h5>
                             </div>
-                            <div class="col-md-6 instruction-help">
-                                <h3>AYUDA E INSTRUCTIVOS</h3>
-                                <div class="price" hidden>
-                                    <p>
-                                        <i class="bi bi-chevron-double-right"></i>
-                                        <a href="">¿Cómo reportar un pago?</a>
-                                    </p>
-                                </div>
-                                <div class="price">
-                                    <p>
-                                        <i class="bi bi-chevron-double-right"></i>
-                                        <a href="">¿Cómo hago mi pedido?</a>
-                                    </p>
-                                </div>
-                                <div class="price">
-                                    <p>
-                                        <i class="bi bi-chevron-double-right"></i>
-                                        <a href="">¿Cómo pagar con MercadoPago?</a>
-                                    </p>
-                                </div>
+                        </a>
+                        <a href="/categoria/categorias/rebajas/" class="grayscale">
+                            <img src="/static/image/quick-access-img/minorista-rebaja.jpg" class="pt-2" alt="...">
+                            <div class="box-title-home">
+                                <h5 class="card-title fs-1 text-start">REBAJAS</h5>
                             </div>
-                        </div>                        
+                        </a>
                     </div>
-                </div>
-                <!-- Contact Info -->
-                <div class="facebook-page">
-                    <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/maurosergio_consultas_facebook_2018.png" alt="">
-                </div>
-
-                <div class="jumbotron contact-info-container">
-                    <div class="row">
-                        <div class="col">
-                            <h1 class="center-title">Mauro Sergio Tienda Minorista</h1>
-                        </div>
-                    </div>
-                    <div class="mt-4">
-                        <div class="row font-size">
-                            <div class="col contact-info">
-                                <p>
-                                    <i class="bi bi-envelope"></i>
-                                    Consultas: 
-                                    <a href="">infoshop@maurosergio.com</a>
-                                </p>
-                                <p>
-                                    <i class="bi bi-share"></i>
-                                    Puede contactarnos utilizando nuestro 
-                                    <a href="">formulario de contacto</a>
-                                    .
-                                </p>
+                    <div class="access-card col-md-4 col2">
+                        <a href="/categoria/categorias/mayorista/" class="grayscale">
+                            <img src="/static/image/quick-access-img/mayorista-acceso.jpg" class="pb-2" alt="...">
+                            <div class="box-title-home catalogue-box">
+                                <h5 class="card-title fs-1 text-center">MAYORISTA</h5>
                             </div>
-                            <div class="col schedule">
-                                <p class="text-end">– Horario de atención: 07.00 a 16.00 horas</p>
+                        </a>
+                        <a href="/categoria/categorias/minorista-catalogo/" class="grayscale">
+                            <img src="/static/image/quick-access-img/minorista-catalogo.jpg" class="pt-2" alt="...">
+                            <div class="box-title-home catalogue-box">
+                                <h5 class="card-title fs-1 text-center">CATÁLOGO</h5>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Newsletter -->
-        <section>
-            <div class="container newsletter-container">
-                <form id="newsletter-form" method="post">
-                    <h3>¡Enterate de las ultimas rebajas!</h3>
-                    <h4>Suscribite a nuestro newsletter y recibí en tu correo las mejores ofertas.</h4>
-                    <div class="form-group">
-                        <input type="email" name="email-newsletter" class="email-form" id="email-newsletter" placeholder="Dirección de Correo">
+                    <div class="access-card col-md-4 col3">
+                        <a href="/categoria/categorias/hombre/" class="grayscale">
+                            <img src="/static/image/quick-access-img/minorista-hombre.jpg" class="pb-2" alt="...">
+                            <div class="box-title-home">
+                                <h5 class="card-title fs-1 text-end">HOMBRE</h5>
+                            </div>
+                        </a>
+                        <a href="/categoria/categorias/nuevo/" class="grayscale">
+                            <img src="/static/image/quick-access-img/minorista-nuevo.jpg" class="pt-2" alt="...">
+                            <div class="box-title-home">
+                                <h5 class="card-title fs-1 text-end">NUEVO</h5>
+                            </div>
+                        </a>
                     </div>
-                    <button type="button" class="btn btn-default" id="btn-newsletter">¡Suscribite!</button>
-                    <br>
-                    <h4 class="subscription-success" hidden>Suscripción realizada. ¡Bienvenido!</h4>
-                </form>
-            </div>
-        </section>
-
-        <!-- Keep buying -->
-        <section>
-            <div class="container">
-                <div class="buying-box">
-                    <h3>
-                        <span>
-                            SEGUÍ COMPRANDO
-                        </span>
-                    </h3>
-                </div>
-                
-                <div class="keep-buying-box">
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-MUJER-38.jpg" alt="">
-                        <div class="box-title-home">MUJER</div>
-                    </a>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-HOMBRE-38.jpg" alt="">
-                        <div class="box-title-home">HOMBRE</div>
-                    </a>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-REBAJAS-37.jpg" alt="">
-                        <div class="box-title-home">REBAJAS</div>
-                    </a>
-                    <a href="">
-                        <img src="https://maurosergio.com/wp-content/uploads/2022/04/MINORISTA-CATALOGO-38.jpg" alt="">
-                        <div class="box-title-home">CATÁLOGO</div>
-                    </a>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <section class="card-footer colophon">
-            <div class="theme-color">
-                <div class="row d-flex justify-content-center">
-                    <img class="pb-5 mt-4" src="https://maurosergioshop.com.ar/wp-content/themes/mino_etapa3/img/minorista/logo2019_minorista_fondo_negro_v2.png" alt="">
-                </div>
-            </div>
-            <div class="row site-info">
-                <div class="col copyright">
-                    (C) 2015 Textilana SA
-                    <br>
-                    Fabrica: Ruta 88 y Calle 45 / Hilandería: Ruta 88 y Calle 47 / Administración: Ruta 88 y Calle 45
-                    <br>
-                    (7600) Mar del Plata - Buenos Aires / Teléfono - Fax: (0054) (223) 4650318 (Líneas rotativas)
-                    <div>
-                        Política de privacidad: Los derechos de autor y otros derechos sobre los materiales de este sitio web son de propiedad de TEXTILANA S.A., sin la expresa autorización por escrito, los mismos no podrán ser usados en publicaciones o para fines comerciales. 
-                        <a href=""></a>
-                    </div>
-                </div>
 
-                <div class="col data-fiscal">
-                    <a class="col" href="https://servicioscf.afip.gob.ar/publico/denuncias/denunciaCD.aspx">
-                        <img src="https://maurosergio.com/wp-content/themes/maurosergio/img/data_fiscal2018.jpg" alt="">
-                    </a>                    
-                    <img class="col personal-data" src="https://maurosergio.com/wp-content/themes/maurosergio/img/datos_personales2018.jpg" alt="">
-                </div>
-            </div>
-        </section>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="/assets/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/data/products.js"></script>
+    <script src="/assets/main.js"></script>
 </body>
+
 </html>
+
+
