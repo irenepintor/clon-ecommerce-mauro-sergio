@@ -1,17 +1,17 @@
 const products = [
     {
         id: 317,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2021/11/013B-4-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2021/11/503-2-350x453.jpg'],
-        name: 'Ámbar',
+        name: 'Ambar',
         price: 7959,
         info: 'Sweater manga ranglan, con canelones.\nAjustado, se amolda al cuerpo.\nTextura suave, apta para usar sobre la piel.'
     },
     {
         id: 345,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2020/01/708-22-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2020/01/215-350x453.jpg'],
@@ -21,7 +21,7 @@ const products = [
     },
     {
         id: 355,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2020/12/619-6-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2020/12/503-3-350x453.jpg'],
@@ -31,7 +31,7 @@ const products = [
     },
     {
         id: 373,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2019/07/20-11-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2019/07/503-7-350x453.jpg'],
@@ -41,7 +41,7 @@ const products = [
     },
     {
         id: 343,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2020/08/215-1-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2020/08/020-3-350x453.jpg'],
@@ -51,7 +51,7 @@ const products = [
     },
     {
         id: 344,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2023/02/013-1-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2023/02/708-350x453.jpg'],
@@ -61,7 +61,7 @@ const products = [
     },
     {
         id: 330,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2019/08/13-130-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2019/08/604-9-350x453.jpg'],
@@ -71,7 +71,7 @@ const products = [
     },
     {
         id: 350,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2023/02/816-1-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2023/02/215-3-350x453.jpg'],
@@ -81,7 +81,7 @@ const products = [
     },
     {
         id: 349,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2021/11/605-7-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2021/11/13-350x453.jpg'],
@@ -91,7 +91,7 @@ const products = [
     },
     {
         id: 246,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/09/12-1-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/09/118-13-350x453.jpg'],
@@ -101,17 +101,17 @@ const products = [
     },
     {
         id: 239,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/09/020-42-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/09/019-3-350x453.jpg'],
-        name: 'Chaltén',
+        name: 'Chalten',
         price: 5809,
         info: 'Cárdigan pied de poule con cuello redondo y botones.\nEstándar, holgado medio.\nAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno.'
     },
     {
         id: 320,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Saco',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/06/503-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/06/020-1-350x453.jpg'],
@@ -121,7 +121,7 @@ const products = [
     },
     {
         id: 210,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Saco',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/09/019-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/09/02-350x453.jpg'],
@@ -131,7 +131,7 @@ const products = [
     },
     {
         id: 477,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Saco',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2021/11/03-2-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2021/11/018-1-350x453.jpg'],
@@ -141,7 +141,7 @@ const products = [
     },
     {
         id: 32,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Polera',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2021/11/215-2-350x453.jpg'],
@@ -151,7 +151,7 @@ const products = [
     },
     {
         id: 469,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Polera',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/03/12-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/03/03-350x453.jpg'],
@@ -161,7 +161,7 @@ const products = [
     },
     {
         id: 224,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Polera',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/09/020-5-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/09/03-5-350x453.jpg'],
@@ -171,17 +171,17 @@ const products = [
     },
     {
         id: 217,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Polera',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/09/017-3-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/09/010-350x453.jpg'],
-        name: 'Arrayán',
+        name: 'Arrayan',
         price: 5809,
         info: 'Polera con botones y tajo en puño.\nEstándar, holgado medio.\nTAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno.'
     },
     {
         id: 231,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Polera',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/09/012-11-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/09/02-2-350x453.jpg'],
@@ -191,7 +191,7 @@ const products = [
     },
     {
         id: 360,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Campera',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/04/013B-1-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/04/708-350x453.jpg'],
@@ -201,17 +201,17 @@ const products = [
     },
     {
         id: 247,
-        gender: 'women',
+        gender: 'mujer',
         type: 'Campera',
         season: 'otoño-invierno',
         img: ['https://maurosergio.com/wp-content/uploads/2022/09/118A-350x453.jpg', 'https://maurosergio.com/wp-content/uploads/2022/09/020-45-350x453.jpg'],
-        name: 'Tafí',
+        name: 'Tafi',
         price: 7309,
         info: 'Campera con cierre y cuello redondo.\nEstándar, holgado medio.\nAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno.'
     },
     {
         id: 375,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: [
@@ -224,7 +224,7 @@ const products = [
     },
     {
         id: 326,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: [
@@ -237,7 +237,7 @@ const products = [
     },
     {
         id: 399,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: [
@@ -250,7 +250,7 @@ const products = [
     },
     {
         id: 307,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: [
@@ -263,7 +263,7 @@ const products = [
     },
     {
         id: 261,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: [
@@ -276,7 +276,7 @@ const products = [
     },
     {
         id: 420,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Sweater',
         season: 'otoño-invierno',
         img: [
@@ -289,7 +289,7 @@ const products = [
     },
     {
         id: 480,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: [
@@ -302,7 +302,7 @@ const products = [
     },
     {
         id: 461,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: [
@@ -315,7 +315,7 @@ const products = [
     },
     {
         id: 490,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: [
@@ -328,7 +328,7 @@ const products = [
     },
     {
         id: 35,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Cardigan',
         season: 'otoño-invierno',
         img: [
@@ -341,7 +341,7 @@ const products = [
     },
     {
         id: 334,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Polera',
         season: 'otoño-invierno',
         img: [
@@ -354,7 +354,7 @@ const products = [
     },
     {
         id: 475,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Polera',
         season: 'otoño-invierno',
         img: [
@@ -367,20 +367,20 @@ const products = [
     },
     {
         id: 488,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Campera',
         season: 'otoño-invierno',
         img: [
             'https://maurosergio.com/wp-content/uploads/2022/09/015-4-350x453.jpg',
             'https://maurosergio.com/wp-content/uploads/2022/09/015-4-350x453.jpg',
         ],
-        name: 'Pehuén',
+        name: 'Pehuen',
         price: 6449,
         info: 'Campera con cierre, bolsillos y manga ranglan con detalle en vivo.\nEstándar, holgado medio.\nTextura de lana, con alta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno.',
     },
     {
         id: 425,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Campera',
         season: 'otoño-invierno',
         img: [
@@ -393,7 +393,7 @@ const products = [
     },
     {
         id: 228,
-        gender: 'men',
+        gender: 'hombre',
         type: 'Chaleco',
         season: 'otoño-invierno',
         img: [
@@ -406,29 +406,4 @@ const products = [
     }
 ];
 
-function saveProductsLS(){
-    localStorage.setItem("products", JSON.stringify(products));
-}
-function getProductsLS(){
-    return JSON.parse(localStorage.getItem("products"));
-}
-function saveCartLS(cart){
-    localStorage.setItem("cart", JSON.stringify(cart));
-}
-function getCartLS(){
-    return JSON.parse(localStorage.getItem("cart")) || [];
-}
-
 saveProductsLS();
-
-function addProduct(id){
-    const cart = getCartLS();
-    const products = searchProduct(id);
-    cart.push(products);
-    saveCartLS(cart);
-}
-
-function searchProduct(id){
-    const allPoducts = getProductsLS();
-    return allPoducts.find(item => item.id === id)
-}

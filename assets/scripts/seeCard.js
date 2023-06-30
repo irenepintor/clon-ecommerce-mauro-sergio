@@ -35,3 +35,4 @@ function seeProductCards() {
         document.getElementById('productCard').innerHTML = cardContent;
 }
 seeProductCards()
+cartButton();

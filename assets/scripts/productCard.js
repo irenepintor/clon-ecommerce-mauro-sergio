@@ -1,8 +1,12 @@
 function productCards(){
     let allPoducts = getProductsLS();
+    //let textSearch = document.getElementById('textSearch').value;
     let cardContent = "";
 
-    allPoducts.forEach(allProduct =>{
+    //allPoducts = textSearch ? allPoducts.filter(item => item.name.toUpperCase().includes(textSearch.toUpperCase())) : allPoducts;
+
+    //if (allPoducts.lenght > 0){
+        allPoducts.forEach(allProduct =>{
         cardContent += `
         <div class="card-container mt-4 mb-4">
             <div class="card">
@@ -18,7 +22,7 @@ function productCards(){
                     </div>
                     <div class="">
                         <a href="categoria.html" onclick="seeProduct(${allProduct.id})">
-                            <h5 class="card-title fs-6 cuotas">Art. ${allProduct.id} - ${allProduct.name}</h5>
+                            <h5 class="card-title fs-6 cuotas">Art. ${allProduct.id} - ${allProduct.type} ${allProduct.name}</h5>
                             <span class="price fs-4 cuotas">$${allProduct.price}</span>
                         </a>
                     </div>
@@ -26,7 +30,10 @@ function productCards(){
                 </div>
             </div>
         </div>`;
-    })
+        });
+    //} else {
+    //    cardContent += `<div class="alert alert-danger text-center" role="alert">No se encontraron productos en la busqueda!</div>`;
+    //}
     document.getElementById('productCards').innerHTML = cardContent;
 }
 
@@ -37,3 +44,4 @@ function seeProduct(id){
 }
 
 productCards();
+cartButton();

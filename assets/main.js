@@ -3,3 +3,4 @@ const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootst
 
 const offcanvasElementList = document.querySelectorAll('.offcanvas')
 const offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))
+
