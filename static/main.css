@@ -14,6 +14,9 @@ body{
     font-family: 'ZCOOL XiaoWei','Open Sans', sans-serif;
     min-height: 100vh;
 }
+.carousel-banner{
+    padding-top: 1rem;
+}
 .quick-access-container{
     margin: 1.5rem 0;
 }
