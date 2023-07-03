@@ -150,7 +150,9 @@ function checkButtonFilter() {
             (check03.checked && item.type == check03.value) ||
             (check04.checked && item.type == check04.value) ||
             (check05.checked && item.type == check05.value) ||
-            (check06.checked && item.type == check06.value));
+            (check06.checked && item.type == check06.value) ||
+            (check07.checked && item.gender == check07.value) ||
+            (check08.checked && item.gender == check08.value));
     if (check07.checked || check08.checked) {
         allPoducts = allPoducts.filter(item =>
         (check07.checked && item.gender == check07.value) ||
