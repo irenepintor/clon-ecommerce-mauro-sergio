@@ -47,7 +47,7 @@ function deleteProduct(id) {
         if (cart[position].amount > 1) {
         cart[position].amount -= 1;
         } else {
-        cart.splice(position, 1);
+            cart.splice(position, 1);
         }
         saveCartLS(cart);
         cartButton();
@@ -60,7 +60,6 @@ function emptyCart() {
     cartCards();
     cartButton();
 }
-
 
 function totalProductsCart() {
     const cart = getCartLS();
@@ -87,8 +86,6 @@ function cartButton() {
 //     let allPoducts = getProductsLS();
 //     let textSearch = document.getElementById('textSearch').value;
 //     let content = '';
-
-//     //console.log(textSearch ? allPoducts.filter(item => item.name.toUpperCase().includes(textSearch.toUpperCase())) : allPoducts)
 
 //     allPoducts = textSearch ? allPoducts.filter(item => item.name.toUpperCase().includes(textSearch.toUpperCase())) : allPoducts;
 
@@ -187,7 +184,7 @@ function checkButtonFilter() {
         });
         document.getElementById('productCards').innerHTML = content;
     } else {
-        document.getElementById('productCards').innerHTML = 'No se encontraron productos';
+        document.getElementById('productCards').innerHTML = `<div class="alert alert-danger text-center mt-5" role="alert">No se encontraron productos</div>`;
     }
 }
     function displayAllProducts() {

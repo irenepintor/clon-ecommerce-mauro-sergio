@@ -1,8 +1,8 @@
 [
     {
         "id": 317,
-        "gender": "women",
-        "type": "Sweaters",
+        "gender": "mujer",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2021/11/013B-4-350x453.jpg",
@@ -14,8 +14,8 @@
     },
     {
         "id": 345,
-        "gender": "women",
-        "type": "Sweaters",
+        "gender": "mujer",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2020/01/708-22-350x453.jpg",
@@ -23,12 +23,12 @@
         ],
         "name": "Eugenia",
         "price": 8389,
-        "info": "Sweater escote en “v”, con tajos en los laterales. Diferencia de largo entre delantera y espalda.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel."
+        "info": "Sweater escote en V, con tajos en los laterales. Diferencia de largo entre delantera y espalda.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel."
     },
     {
         "id": 355,
-        "gender": "women",
-        "type": "Sweaters",
+        "gender": "mujer",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2020/12/619-6-350x453.jpg",
@@ -40,8 +40,8 @@
     },
     {
         "id": 373,
-        "gender": "women",
-        "type": "Sweaters",
+        "gender": "mujer",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2019/07/20-11-350x453.jpg",
@@ -53,8 +53,8 @@
     },
     {
         "id": 343,
-        "gender": "women",
-        "type": "Sweaters",
+        "gender": "mujer",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2020/08/215-1-350x453.jpg",
@@ -66,8 +66,8 @@
     },
     {
         "id": 344,
-        "gender": "women",
-        "type": "Sweaters",
+        "gender": "mujer",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2023/02/013-1-350x453.jpg",
@@ -79,8 +79,8 @@
     },
     {
         "id": 330,
-        "gender": "women",
-        "type": "Cardigans",
+        "gender": "mujer",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2019/08/13-130-350x453.jpg",
@@ -92,8 +92,8 @@
     },
     {
         "id": 350,
-        "gender": "women",
-        "type": "Cardigans",
+        "gender": "mujer",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2023/02/816-1-350x453.jpg",
@@ -105,8 +105,8 @@
     },
     {
         "id": 349,
-        "gender": "women",
-        "type": "Cardigans",
+        "gender": "mujer",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2021/11/605-7-350x453.jpg",
@@ -118,8 +118,8 @@
     },
     {
         "id": 246,
-        "gender": "women",
-        "type": "Cardigans",
+        "gender": "mujer",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/12-1-350x453.jpg",
@@ -127,12 +127,12 @@
         ],
         "name": "Iruya",
         "price": "5809",
-        "info": "Cárdigan escote en “v” con botones.\nEstándar, holgado medio.\nAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
+        "info": "Cárdigan escote en V con botones.\nEstándar, holgado medio.\nAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
     },
     {
         "id": 239,
-        "gender": "women",
-        "type": "Cardigans",
+        "gender": "mujer",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/020-42-350x453.jpg",
@@ -144,8 +144,8 @@
     },
     {
         "id": 320,
-        "gender": "women",
-        "type": "Sacos",
+        "gender": "mujer",
+        "type": "Saco",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/06/503-350x453.jpg",
@@ -157,8 +157,8 @@
     },
     {
         "id": 210,
-        "gender": "women",
-        "type": "Sacos",
+        "gender": "mujer",
+        "type": "Saco",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/019-350x453.jpg",
@@ -170,8 +170,8 @@
     },
     {
         "id": 477,
-        "gender": "women",
-        "type": "Sacos",
+        "gender": "mujer",
+        "type": "Saco",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2021/11/03-2-350x453.jpg",
@@ -183,8 +183,8 @@
     },
     {
         "id": 32,
-        "gender": "women",
-        "type": "Poleras",
+        "gender": "mujer",
+        "type": "Polera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2021/11/215-2-350x453.jpg"
@@ -195,8 +195,8 @@
     },
     {
         "id": 469,
-        "gender": "women",
-        "type": "Poleras",
+        "gender": "mujer",
+        "type": "Polera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/03/12-350x453.jpg",
@@ -208,8 +208,8 @@
     },
     {
         "id": 224,
-        "gender": "women",
-        "type": "Poleras",
+        "gender": "mujer",
+        "type": "Polera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/020-5-350x453.jpg",
@@ -221,8 +221,8 @@
     },
     {
         "id": 217,
-        "gender": "women",
-        "type": "Poleras",
+        "gender": "mujer",
+        "type": "Polera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/017-3-350x453.jpg",
@@ -234,8 +234,8 @@
     },
     {
         "id": 231,
-        "gender": "women",
-        "type": "Poleras",
+        "gender": "mujer",
+        "type": "Polera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/012-11-350x453.jpg",
@@ -247,8 +247,8 @@
     },
     {
         "id": 360,
-        "gender": "women",
-        "type": "Camperas",
+        "gender": "mujer",
+        "type": "Campera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/04/013B-1-350x453.jpg",
@@ -260,8 +260,8 @@
     },
     {
         "id": 247,
-        "gender": "women",
-        "type": "Camperas",
+        "gender": "mujer",
+        "type": "Campera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/118A-350x453.jpg",
@@ -273,8 +273,8 @@
     },
     {
         "id": 375,
-        "gender": "men",
-        "type": "Sweaters",
+        "gender": "hombre",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2021/11/13-5-350x453.jpg",
@@ -286,8 +286,8 @@
     },
     {
         "id": 326,
-        "gender": "men",
-        "type": "Sweaters",
+        "gender": "hombre",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2018/07/605a-350x453.jpg",
@@ -299,8 +299,8 @@
     },
     {
         "id": 399,
-        "gender": "men",
-        "type": "Sweaters",
+        "gender": "hombre",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2020/01/13b-6-350x453.jpg",
@@ -308,12 +308,12 @@
         ],
         "name": "Emilio",
         "price": 9889,
-        "info": "Sweater escote en “v” clásico.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel."
+        "info": "Sweater escote en V clásico.\nEstándar, holgado medio.\nTextura suave, apta para usar sobre la piel."
     },
     {
         "id": 307,
-        "gender": "men",
-        "type": "Sweaters",
+        "gender": "hombre",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2019/01/020-4-350x453.jpg",
@@ -325,8 +325,8 @@
     },
     {
         "id": 261,
-        "gender": "men",
-        "type": "Sweaters",
+        "gender": "hombre",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2018/08/014-2-350x453.jpg",
@@ -338,8 +338,8 @@
     },
     {
         "id": 420,
-        "gender": "men",
-        "type": "Sweaters",
+        "gender": "hombre",
+        "type": "Sweater",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2020/01/308-20-350x453.jpg",
@@ -347,12 +347,12 @@
         ],
         "name": "Pedro",
         "price": 6449,
-        "info": "Sweater escote en “V”, básico.\nEstándar, holgado medio.\nTextura de lana, con alta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
+        "info": "Sweater escote en V, básico.\nEstándar, holgado medio.\nTextura de lana, con alta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
     },
     {
         "id": 480,
-        "gender": "men",
-        "type": "Cardigans",
+        "gender": "hombre",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/13-350x453.jpg",
@@ -360,12 +360,12 @@
         ],
         "name": "Algarrobo",
         "price": 6669,
-        "info": "Escote en “V” oversize liso.\nAncho, holgado\nTextura suave, apta para usar sobre la piel."
+        "info": "Escote en V oversize liso.\nAncho, holgado\nTextura suave, apta para usar sobre la piel."
     },
     {
         "id": 461,
-        "gender": "men",
-        "type": "Cardigans",
+        "gender": "hombre",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2021/04/318-6-350x453.jpg",
@@ -377,8 +377,8 @@
     },
     {
         "id": 490,
-        "gender": "men",
-        "type": "Cardigans",
+        "gender": "hombre",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2023/02/013-3-350x453.jpg",
@@ -386,12 +386,12 @@
         ],
         "name": "Otto",
         "price": 6879,
-        "info": "Cárdigan escote en “v” con botones y trabajo de punto en prenda.\nEstándar, holgado medio.\nTextura de lana, con alta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
+        "info": "Cárdigan escote en V con botones y trabajo de punto en prenda.\nEstándar, holgado medio.\nTextura de lana, con alta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
     },
     {
         "id": 35,
-        "gender": "men",
-        "type": "Cardigans",
+        "gender": "hombre",
+        "type": "Cardigan",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/016-2-350x453.jpg",
@@ -403,8 +403,8 @@
     },
     {
         "id": 334,
-        "gender": "men",
-        "type": "Poleras",
+        "gender": "hombre",
+        "type": "Polera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/10/505-1-350x453.jpg",
@@ -412,12 +412,12 @@
         ],
         "name": "Arawi",
         "price": 8169,
-        "info": "Escote en “V” oversize liso.\nAncho, holgado\nTextura suave, apta para usar sobre la piel."
+        "info": "Escote en V oversize liso.\nAncho, holgado\nTextura suave, apta para usar sobre la piel."
     },
     {
         "id": 475,
-        "gender": "men",
-        "type": "Poleras",
+        "gender": "hombre",
+        "type": "Polera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2021/11/03-1-350x453.jpg",
@@ -429,8 +429,8 @@
     },
     {
         "id": 488,
-        "gender": "men",
-        "type": "Camperas",
+        "gender": "hombre",
+        "type": "Campera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/09/015-4-350x453.jpg",
@@ -442,12 +442,12 @@
     },
     {
         "id": 425,
-        "gender": "men",
-        "type": "Camperas",
+        "gender": "hombre",
+        "type": "Campera",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2020/05/208-1-350x453.jpg",
-            "https: //maurosergio.com/wp-content/uploads/2020/05/213-3-350x453.jpg"
+            "https://maurosergio.com/wp-content/uploads/2022/09/013-16-350x453.jpg"
         ],
         "name": "Vento",
         "price": 9889,
@@ -455,8 +455,8 @@
     },
     {
         "id": 228,
-        "gender": "men",
-        "type": "chalecos",
+        "gender": "hombre",
+        "type": "Chaleco",
         "season": "otoño-invierno",
         "img": [
             "https: //maurosergio.com/wp-content/uploads/2022/05/118-3-350x453.jpg",
@@ -464,6 +464,6 @@
         ],
         "name": "Silvestre",
         "price": 5809,
-        "info": "Chaleco escote en “v». Prenda sin costuras.\nEstándar, holgado medio.\nAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
+        "info": "Chaleco escote en V. Prenda sin costuras.\nEstándar, holgado medio.\nAlta capacidad calórica, segunda y tercera piel. Ideal para otoño/invierno."
     }
 ]

@@ -372,7 +372,7 @@ const products = [
         season: 'otoño-invierno',
         img: [
             'https://maurosergio.com/wp-content/uploads/2022/09/015-4-350x453.jpg',
-            'https://maurosergio.com/wp-content/uploads/2022/09/015-4-350x453.jpg',
+            'https://maurosergio.com/wp-content/uploads/2022/09/013-16-350x453.jpg',
         ],
         name: 'Pehuen',
         price: 6449,
