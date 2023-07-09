@@ -64,7 +64,6 @@ function emptyCart() {
 function totalProductsCart() {
     const cart = getCartLS();
     return cart.reduce((acc, item) => (acc += item.amount), 0);
-    //return cart.length;
 }
 
 function fullProductAddition() {
@@ -81,45 +80,6 @@ function cartButton() {
     </button>`;
     cartButton.innerHTML = content;
 }
-
-// function productFilter(){
-//     let allPoducts = getProductsLS();
-//     let textSearch = document.getElementById('textSearch').value;
-//     let content = '';
-
-//     allPoducts = textSearch ? allPoducts.filter(item => item.name.toUpperCase().includes(textSearch.toUpperCase())) : allPoducts;
-
-//     if (allPoducts.lenght > 0){
-//         allPoducts.forEach(allProduct =>{
-//         cardContent += `
-//         <div class="card-container mt-4 mb-4">
-//             <div class="card">
-//                 <div class="card-body">
-//                 <li class="product-card">
-//                     <a href="categoria.html" onclick="seeProduct(${allProduct.id})">
-//                     <img src="${allProduct.img[0]}" alt="${allProduct.name}" class="img-fluid mb-2">
-//                     </a>
-//                     <div class="pellets">
-//                         <div>
-//                             <a></a>
-//                         </div>
-//                     </div>
-//                     <div class="">
-//                         <a href="categoria.html" onclick="seeProduct(${allProduct.id})">
-//                             <h5 class="card-title fs-6 cuotas">Art. ${allProduct.id} - ${allProduct.name}</h5>
-//                             <span class="price fs-4 cuotas">$${allProduct.price}</span>
-//                         </a>
-//                     </div>
-//                 </li>
-//                 </div>
-//             </div>
-//         </div>`;
-//         });
-//     } else {
-//         content += `<div class="alert alert-danger text-center" role="alert">No se encontraron productos en la busqueda!</div>`;
-//     }
-//     document.getElementById('productCards').innerHTML = cardContent;
-// }
 
 function checkButtonFilter() {
     let allPoducts = getProductsLS();
@@ -150,9 +110,7 @@ function checkButtonFilter() {
             (check03.checked && item.type == check03.value) ||
             (check04.checked && item.type == check04.value) ||
             (check05.checked && item.type == check05.value) ||
-            (check06.checked && item.type == check06.value) ||
-            (check07.checked && item.gender == check07.value) ||
-            (check08.checked && item.gender == check08.value));
+            (check06.checked && item.type == check06.value));
     if (check07.checked || check08.checked) {
         allPoducts = allPoducts.filter(item =>
         (check07.checked && item.gender == check07.value) ||
@@ -219,3 +177,26 @@ function checkButtonFilter() {
     });
     document.getElementById('productCards').innerHTML = content;
 }
+
+// function cartClosure(){
+//     let confirmCart=document.getElementById("confirmCart")
+//     let content= `
+//     <div class="modal" tabindex="-1">
+//         <div class="modal-dialog">
+//             <div class="modal-content">
+//             <div class="modal-header">
+//                 <h5 class="modal-title">Confirmación de Compra</h5>
+//                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+//             </div>
+//             <div class="modal-body">
+//                 <p>Modal body text goes here.</p>
+//             </div>
+//             <div class="modal-footer">
+//                 <button type="button" class="btn btn-primary" onclick="emptyCart()">Save changes</button>
+//             </div>
+//             </div>
+//         </div>
+//     </div>`;
+//     confirmCart.innerHTML = content;
+//     emptyCart()
+// }

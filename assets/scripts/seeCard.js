@@ -30,7 +30,7 @@ function seeProductCards() {
                         <span>${allPoducts.info}</span>
                     </p>
                 </div>
-                <button type="submit" class="btn btn-lg btn-outline-secondary mt-2" onclick="addProduct(${allPoducts.id})">Añadir al Carrito</button>
+                <button type="submit" class="btn btn-lg btn-outline-secondary mt-2" onclick="addProduct(${allPoducts.id})" id="btnAdd">Añadir al Carrito</button>
             </div>`;
         document.getElementById('productCard').innerHTML = cardContent;
 }

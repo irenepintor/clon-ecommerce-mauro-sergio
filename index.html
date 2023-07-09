@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +7,6 @@
     <link rel="stylesheet" href="/static/main.css" />
     <title>Inicio | Clon Mauro Sergio</title>
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm p-3 mb-3 bg-body-tertiary rounded w-100">
@@ -24,58 +22,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase row row-cols-auto ms-lg-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/productos" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Productos</a>
                             <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="/sweaters">Sweaters</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/cardigans">Cardigans</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/sacos">Sacos</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/poleras">Poleras</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/camperas">Camperas</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/chaleco">Chaleco</a>
-                                </li>
-                                <li>
-                                <li>
-                                    <hr class="dropdown-divider" />
-                                </li>
                                 <li>
                                     <a class="dropdown-item" href="/static/pages/products.html">Ver Todo</a>
                                 </li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/hombre" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Hombre</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="/sweaters">Sweaters</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/cardigans">Cardigans</a>
-                                </li>
-                                <li><a class="dropdown-item" href="/poleras">Poleras</a></li>
-                                <li>
-                                    <a class="dropdown-item" href="/camperas">Camperas</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/chaleco">Chaleco</a></li>
-                                <li>
-                                    <hr class="dropdown-divider" />
-                                </li>
-                                <li><a class="dropdown-item" href="/static/pages/hombre.html">Ver Todo Hombre</a></li>
-                            </ul>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link disabled text-danger">Rebajas</a>
                         </li>
@@ -97,21 +51,13 @@
                     </ul>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
                         <li class="nav-item">
-                            <a class="btn btn-light fs-6" data-bs-toggle="offcanvas" href="#accountSidebar" role="button" aria-controls="offcanvasExample"><i class="bi bi-person-fill"></i></a>
-                        </li>
-                        <li class="nav-item">
                             <a class="btn btn-light fs-6" id="cartButton" data-bs-toggle="offcanvas" href="#sidebar" role="button" aria-controls="offcanvasExample"></a>                                                       
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" id="textSearch" type="search" placeholder="Buscar" aria-label="Search" />
-                        <button class="btn btn-outline-secondary" id="btnSearch" type="submit" onclick="productFilter()"><i class="bi bi-search"></i></button>
-                    </form>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
         <section class="carousel-banner pb-3">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -212,11 +158,8 @@
             </div>
         </section>
     </main>
-
     <footer>
-
     </footer>
-
     <section class="container">
         <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
             <div class="offcanvas-header">
@@ -228,28 +171,18 @@
 
                 </div>
             </div>
+            <!-- <div>
+                <button id="confirmCart" type="button" class="btn btn-success ms-3 mb-3" onclick="cartClosure()" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Confirmar Compra
+                </button>
+            </div> -->
         </div>
     </section>
-
-    <section class="container">
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="accountSidebar" aria-labelledby="sidebar-label">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="sidebar-label">Mi Cuenta</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
-            </div>
-            <div class="offcanvas-lg offcanvas-body">
-                
-            </div>
-        </div>
-    </section>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/main.js"></script>
     <script src="/assets/scripts/functions.js"></script>
-    <script src="/assets/data/products.js"></script>
     <script src="/assets/scripts/cart.js"></script>
 </body>
-
 </html>
 
 

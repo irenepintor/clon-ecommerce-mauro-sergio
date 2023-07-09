@@ -1,11 +1,6 @@
 function productCards(){
     let allPoducts = getProductsLS();
-    //let textSearch = document.getElementById('textSearch').value;
     let cardContent = "";
-
-    //allPoducts = textSearch ? allPoducts.filter(item => item.name.toUpperCase().includes(textSearch.toUpperCase())) : allPoducts;
-
-    //if (allPoducts.lenght > 0){
         allPoducts.forEach(allProduct =>{
         cardContent += `
         <div class="card-container mt-4 mb-4">
@@ -31,9 +26,6 @@ function productCards(){
             </div>
         </div>`;
         });
-    //} else {
-    //    cardContent += `<div class="alert alert-danger text-center" role="alert">No se encontraron productos en la busqueda!</div>`;
-    //}
     document.getElementById('productCards').innerHTML = cardContent;
 }
 
